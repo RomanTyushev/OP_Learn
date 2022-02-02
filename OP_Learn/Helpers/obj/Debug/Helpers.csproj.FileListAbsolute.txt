@@ -1,0 +1,5 @@
+C:\Users\Елена\source\repos\Lesson\Helpers\bin\Debug\Helpers.dll
+C:\Users\Елена\source\repos\Lesson\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Елена\source\repos\Lesson\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Елена\source\repos\Lesson\Helpers\obj\Debug\Helpers.dll
+C:\Users\Елена\source\repos\Lesson\Helpers\obj\Debug\Helpers.pdb

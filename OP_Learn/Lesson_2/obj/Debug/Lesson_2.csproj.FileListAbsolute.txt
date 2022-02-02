@@ -1,0 +1,10 @@
+C:\Users\Елена\source\repos\Lesson\Lesson_2\bin\Debug\Lesson_2.exe.config
+C:\Users\Елена\source\repos\Lesson\Lesson_2\bin\Debug\Lesson_2.exe
+C:\Users\Елена\source\repos\Lesson\Lesson_2\bin\Debug\Lesson_2.pdb
+C:\Users\Елена\source\repos\Lesson\Lesson_2\bin\Debug\Helpers.dll
+C:\Users\Елена\source\repos\Lesson\Lesson_2\bin\Debug\Helpers.pdb
+C:\Users\Елена\source\repos\Lesson\Lesson_2\obj\Debug\Lesson_2.csproj.AssemblyReference.cache
+C:\Users\Елена\source\repos\Lesson\Lesson_2\obj\Debug\Lesson_2.csproj.CoreCompileInputs.cache
+C:\Users\Елена\source\repos\Lesson\Lesson_2\obj\Debug\Lesson_2.csproj.CopyComplete
+C:\Users\Елена\source\repos\Lesson\Lesson_2\obj\Debug\Lesson_2.exe
+C:\Users\Елена\source\repos\Lesson\Lesson_2\obj\Debug\Lesson_2.pdb
