@@ -7,55 +7,149 @@ using System.Threading.Tasks;
 namespace Lesson_3._1
 {
     /// <summary>
-    /// Класс по работе с дробными числами
+    /// Класс для работы с дробятми
     /// </summary>
-    class Druble
+    class Fraction
     {
-        double tschis; // Приватное поле числителя
-        double znam; // Приватное поле знаменателя
 
         /// <summary>
-        /// Конструктор дроби без параметров
+        /// Числитель (рациональное число)
         /// </summary>
-        public Druble()
+        private int _numerator;
+
+        /// <summary>
+        /// Знаменатель (натуральное число)
+        /// </summary>
+        private int _denominator;
+
+        /// <summary>
+        /// Числитель
+        /// </summary>
+        public int Numerator
         {
-            tschis = 0;
-            znam = 0;
+            get { return _numerator; }
+            set { value = _numerator; }
         }
 
         /// <summary>
-        /// Конструктор задания полей дробного числа
+        /// Знаменатель
         /// </summary>
-        /// <param name="_tschis">Числитель</param>
-        /// <param name="_znam">Знаменатель</param>
-        public Druble(double _tschis, double _znam)
+        public int Denominator
         {
-            tschis = _tschis;
-            znam = _znam;
-        }
-
-        public double Tschis
-        {
-            get { return tschis; }
-            set { value = tschis; }            
-        }
-
-        public double Znam
-        {
-            get { return znam; }
+            get { return _denominator; }
             set
             {
                 if (value == 0)
                     throw new ArgumentException("Знаменатель не может быть равен 0");
-                value = znam;
+                value = _denominator;
             }
         }
 
+        /// <summary>
+        /// Получить десятичную дробь
+        /// </summary>
         public double GetFraction
         {
-            get { return (double)tschis / znam; }
+            get { return (double)_numerator / _denominator; }
         }
 
+        /// <summary>
+        /// Инициализация дроби
+        /// </summary>
+        /// <param name="numerator">Числитель</param>
+        /// <param name="denominator">Знаменатель</param>
+        public Fraction(int numerator, int denominator)
+        {
+            if (denominator <= 0)
+                throw new ArgumentException("Знаменатель не может быть равен 0");
+            _numerator = numerator;
+            _denominator = denominator;
+            // Автоматическая нормализация дроби (при необходимости)
+            Nod();
+        }
+
+        /// <summary>
+        /// Сложение дробей
+        /// </summary>
+        /// <param name="f">Дробь</param>
+        /// <returns>Результат сложения дробей</returns>
+        public Fraction Plus(Fraction f)
+        {
+            var den = _denominator * f.Denominator;
+            var num = _numerator * f.Denominator + f.Numerator * Denominator;
+            return new Fraction(num, den);
+        }
+
+        /// <summary>
+        /// Вычитание дробей
+        /// </summary>
+        /// <param name="f">Дробь</param>
+        /// <returns>Результат вычитания дробей</returns>
+        public Fraction Minus(Fraction f)
+        {
+            var den = _denominator * f.Denominator;
+            var num = _numerator * f.Denominator - f.Numerator * Denominator;
+            return new Fraction(num, den);
+        }
+
+        /// <summary>
+        /// Произведение дробей
+        /// </summary>
+        /// <param name="f">Дробь</param>
+        /// <returns>Результат произведения дробей</returns>
+        public Fraction Multi(Fraction f)
+        {
+            var den = _denominator * f.Denominator;
+            var num = _numerator * f.Numerator;
+            return new Fraction(num, den);
+        }
+
+        /// <summary>
+        /// Нормальизация дроби
+        /// </summary>
+        private void Nod()
+        {
+            // Пусть мы решили упростить дробь -4/6
+
+            var num = Math.Abs(_numerator); // Создаем вспомогательную переменную, модуль числителя (4)
+            var den = Math.Abs(_denominator); // Создаем вспомогательную переменную, модуль знаменателя (6)
+            int temp; // Вспомогательная переменная
+
+            while (num != 0 && den != 0) // Цикл, до тех пор, пока обе вспомогательные переменные не равны нулю
+            {
+                if (num % den > 0) // Если остаток от деления числителя на знаменатель больше нуля ( т е остаток присутствует)
+                {
+                    // При первой итерации: 4 % 6 = 4
+
+                    temp = num; // Вспомогательная переменная теперь хранит значение числителя (4)
+                    num = den; // Переменная числителя сохраняет значение знаменателя
+                    den = temp % den; // Знаменатель теперь хранит тот самый остаток от деления числителя на занаменатель 4 % 6 = 4, теперь тут лежит 4
+                }
+                else
+                    break;
+                // При повторой итерации цикла, у нас выполняется выражение 6 % 4 = 2
+                // Теперь в переменной temp хранится 6, в перменной num хранится 4, в переменной den = 6 % 4 = 2
+
+                // Третья итерация цикла 4 % 2 = 0 и вот тут мы понимаем, что 4 делится на 2 без остатка, следовательно цикл while завершает свою работу, 
+                // мы выходим через break;
+
+            }
+
+
+            // Что мы получаем? теперь мы берем начальные значения числителя и знаменателя и делим их на последнее значение переменной den (которое равно 2)
+            if (num != 0 && den != 0)
+            {
+                _numerator = _numerator / den; // -4/2 = -2
+                _denominator = _denominator / den; // 6/2 = 3
+            }
+            // Итого, у нас была дробь -4/6, стала -2/3, что и требовалось получить, мы сократили дробь на 2
+        }
+
+        public override string ToString()
+        {
+            Nod();
+            return $"{_numerator}/{_denominator}";
+        }
     }
 
     /// <summary>
