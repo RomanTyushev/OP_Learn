@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d641195e-b5ce-4a1f-86ca-5f7b39d5dc53": {
+      "ProjectGuid": "d641195e-b5ce-4a1f-86ca-5f7b39d5dc53",
+      "DisplayName": "Lesson_2",
+      "ColorIndex": 0
+    },
+    "29259702-7c3c-4c0c-92f1-ea0a47f71dc1": {
+      "ProjectGuid": "29259702-7c3c-4c0c-92f1-ea0a47f71dc1",
+      "DisplayName": "Lesson_3.1",
+      "ColorIndex": 1
+    },
+    "50673260-18eb-40c6-ac02-0574eabdd3a7": {
+      "ProjectGuid": "50673260-18eb-40c6-ac02-0574eabdd3a7",
+      "DisplayName": "Helper",
+      "ColorIndex": 2
+    },
+    "e87e41ec-83b6-4945-a3a4-818171310b32": {
+      "ProjectGuid": "e87e41ec-83b6-4945-a3a4-818171310b32",
+      "DisplayName": "Lesson_4",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

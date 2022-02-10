@@ -1,0 +1,8 @@
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\bin\Debug\Lesson_3.1.exe.config
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\bin\Debug\Lesson_3.1.exe
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\bin\Debug\Lesson_3.1.pdb
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\obj\Debug\Lesson_3.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\obj\Debug\Lesson_3.1.csproj.CoreCompileInputs.cache
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\obj\Debug\Lesson_3.1.exe
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\obj\Debug\Lesson_3.1.pdb
+C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3.1\obj\Debug\Lesson_3.1.csproj.AssemblyReference.cache
