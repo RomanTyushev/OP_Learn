@@ -15,7 +15,7 @@ namespace Lesson_2
         static void Menu()
         {
             bool f = true;
-            sbyte task;
+            byte task;
             while (f)
             {
                 Console.WriteLine("Меню");
@@ -31,7 +31,7 @@ namespace Lesson_2
                 Console.WriteLine("#############################");
                 Console.WriteLine("");
                 Console.Write("Введите номер задачи: ");
-                task = sbyte.Parse(Console.ReadLine());
+                task = byte.Parse(Console.ReadLine());
 
                 switch (task)
                 {
@@ -232,47 +232,39 @@ namespace Lesson_2
             // Написать программу подсчета количества «хороших» чисел в диапазоне от 1 до 1 000 000 000.
             // «Хорошим» называется число, которое делится на сумму своих цифр.
             // Реализовать подсчёт времени выполнения программы, используя структуру DateTime.
-
+            Console.WriteLine("#################################################################");
+            Console.WriteLine("Эта программа подсчитывает 'хорошие' числа в указанном диапазоне.");
+            Console.WriteLine("#################################################################");
+            Console.WriteLine("");
             Console.Write("Введите нижнее число диапозона: ");
             int min = int.Parse(Console.ReadLine());
             Console.Write("Введите верхнее число диапозона: ");
             int max = int.Parse(Console.ReadLine());
-            int c, sum, all, minOne, maxOne, a, b;
-            minOne = min;
-            maxOne = max;
-            sum = 0;
-            all = 0;
-            b = 0;
+            Console.WriteLine("Производится подсчёт, ждите ...");
+            DateTime start = DateTime.Now;
+            int counter = 0;
+            int sum = 0;
 
-            while (min <= maxOne)
+            for (min = min; min <= max; min++)
             {
-                sum = 0;               
-                               
-                    while (min >= 10)
-                    {
-                        a = min % 10;
-                        sum += a;
-                        min = (min - a) / 10;
-                        b = min * 10 + a;
-                    }
-
-                sum += min;
-
-                if (min >= 10)
+                if (min % GetSum(min) == 0)
                 {
-                    min = b;
+                    counter++;
+                    sum += min;
                 }
-
-                if (min % sum == 0)
-                {
-                    all++;
-                }
-                min++;
             }
 
-            Console.WriteLine($"В диапазоне от {minOne} до {maxOne} - {all} хороших чисел.");
+            DateTime finish = DateTime.Now;
+
+            Console.WriteLine($"Количество 'хороших' чисел в диапазоне от {min} до {max} = {counter}, общая сумма = {sum}");
+            Console.WriteLine($"Время работы программы заняло {finish - start}");
 
             Console.ReadKey();
+
+            static int GetSum(int number)
+            {
+                
+            }
 
         }
 
