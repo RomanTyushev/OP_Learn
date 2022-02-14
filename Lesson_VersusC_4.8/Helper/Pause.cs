@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Helper
 {
-    internal class Pause
+    public class Pause
     {
         /// <summary>
         /// Задержка экрана

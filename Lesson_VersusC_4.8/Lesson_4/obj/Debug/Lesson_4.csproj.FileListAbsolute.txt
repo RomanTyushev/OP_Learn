@@ -6,3 +6,14 @@ C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.
 C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.CoreCompileInputs.cache
 C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.exe
 C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.pdb
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Lesson_4.exe.config
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Lesson_4.exe
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Lesson_4.pdb
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.AssemblyReference.cache
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.CoreCompileInputs.cache
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.exe
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.pdb
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Helper.dll
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Helper.pdb
+C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.CopyComplete

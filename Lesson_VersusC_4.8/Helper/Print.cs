@@ -27,6 +27,7 @@ namespace Helper
         public static void Center(string text)
         {
             Console.SetCursorPosition((Console.WindowWidth - text.Length) / 2, Console.WindowHeight / 2 - 1);
+            Console.Write(text);
         }
 
         /// <summary>
