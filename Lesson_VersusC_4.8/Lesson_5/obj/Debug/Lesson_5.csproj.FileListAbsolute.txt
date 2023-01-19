@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\obj\Debug\Lesson_5.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\obj\Debug\Lesson_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\obj\Debug\Lesson_5.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\bin\Debug\Lesson_5.exe.config
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\bin\Debug\Lesson_5.exe
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\bin\Debug\Lesson_5.pdb
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\bin\Debug\Helper.dll
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\bin\Debug\Helper.pdb
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\obj\Debug\Lesson_5.csproj.CopyComplete
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\obj\Debug\Lesson_5.exe
+C:\Users\User\Desktop\Work\Рома\Lerning\GB\OP_Learn\Lesson_VersusC_4.8\Lesson_5\obj\Debug\Lesson_5.pdb
