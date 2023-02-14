@@ -1,0 +1,3 @@
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_2\obj\Debug\Lesson_2.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_2\obj\Debug\Lesson_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_2\obj\Debug\Lesson_2.csproj.CoreCompileInputs.cache
