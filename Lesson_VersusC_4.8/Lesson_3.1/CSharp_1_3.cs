@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson_3._1
+namespace Lesson_3.1
 {
     /// <summary>
     /// Класс для работы с дробятми

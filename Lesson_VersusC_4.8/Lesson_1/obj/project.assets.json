@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Роман\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Work\\Рома\\Lerning\\GB\\OP_Learn\\Lesson_VersusC_4.8\\Lesson_1\\Lesson_1.csproj",
+      "projectUniqueName": "C:\\Users\\Роман\\Documents\\GitHub\\OP_Learn\\Lesson_VersusC_4.8\\Lesson_1\\Lesson_1.csproj",
       "projectName": "Lesson_1",
-      "projectPath": "C:\\Users\\User\\Desktop\\Work\\Рома\\Lerning\\GB\\OP_Learn\\Lesson_VersusC_4.8\\Lesson_1\\Lesson_1.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Work\\Рома\\Lerning\\GB\\OP_Learn\\Lesson_VersusC_4.8\\Lesson_1\\obj\\",
+      "projectPath": "C:\\Users\\Роман\\Documents\\GitHub\\OP_Learn\\Lesson_VersusC_4.8\\Lesson_1\\Lesson_1.csproj",
+      "packagesPath": "C:\\Users\\Роман\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Роман\\Documents\\GitHub\\OP_Learn\\Lesson_VersusC_4.8\\Lesson_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Роман\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -6,3 +6,11 @@ C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_2.
 C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_2.csproj.CoreCompileInputs.cache
 C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_3.exe
 C:\Users\Елена\source\repos\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_3.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\bin\Debug\Lesson_3.exe.config
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\bin\Debug\Lesson_3.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\bin\Debug\Lesson_3.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_2.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_2.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_3.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_3\obj\Debug\Lesson_3.pdb
