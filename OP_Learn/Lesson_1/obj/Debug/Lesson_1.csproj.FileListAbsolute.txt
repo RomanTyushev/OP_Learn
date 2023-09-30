@@ -5,3 +5,7 @@ C:\Users\Елена\source\repos\Lesson\Lesson_1\obj\Debug\Lesson_1.csproj.Assem
 C:\Users\Елена\source\repos\Lesson\Lesson_1\obj\Debug\Lesson_1.csproj.CoreCompileInputs.cache
 C:\Users\Елена\source\repos\Lesson\Lesson_1\obj\Debug\Lesson_1.exe
 C:\Users\Елена\source\repos\Lesson\Lesson_1\obj\Debug\Lesson_1.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_1\obj\Debug\Lesson_1.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_1\obj\Debug\Lesson_1.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_1\obj\Debug\Lesson_1.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_1\obj\Debug\Lesson_1.pdb

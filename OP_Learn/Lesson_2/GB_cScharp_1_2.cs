@@ -245,12 +245,12 @@ namespace Lesson_2
             int counter = 0;
             int sum = 0;
 
-            for (min = min; min <= max; min++)
+            for (int a = min; a <= max; a++)
             {
-                if (min % GetSum(min) == 0)
+                if (a % GetSum(a) == 0)
                 {
                     counter++;
-                    sum += min;
+                    sum += a;
                 }
             }
 
@@ -260,12 +260,17 @@ namespace Lesson_2
             Console.WriteLine($"Время работы программы заняло {finish - start}");
 
             Console.ReadKey();
+        }
 
-            static int GetSum(int number)
+        static int GetSum(int number)
+        {
+            var sum = 0;
+            while (number > 0)
             {
-                
+                sum += number % 10;
+                number /= 10;
             }
-
+            return sum;
         }
 
         static void Task_7()

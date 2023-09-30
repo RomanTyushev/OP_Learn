@@ -5,3 +5,10 @@ C:\Users\Елена\Desktop\repo\OP_Learn\Lesson_3\bin\Debug\Lesson_3.exe
 C:\Users\Елена\Desktop\repo\OP_Learn\Lesson_3\bin\Debug\Lesson_3.pdb
 C:\Users\Елена\Desktop\repo\OP_Learn\Lesson_3\obj\Debug\Lesson_3.exe
 C:\Users\Елена\Desktop\repo\OP_Learn\Lesson_3\obj\Debug\Lesson_3.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\bin\Debug\Lesson_3.exe.config
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\bin\Debug\Lesson_3.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\bin\Debug\Lesson_3.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\obj\Debug\Lesson_3.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\obj\Debug\Lesson_3.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\obj\Debug\Lesson_3.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_3\obj\Debug\Lesson_3.pdb

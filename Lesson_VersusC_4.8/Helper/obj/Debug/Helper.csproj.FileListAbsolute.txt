@@ -4,3 +4,9 @@ C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.cspr
 C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
 C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.dll
 C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Helper\bin\Debug\Helper.dll
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Helper\bin\Debug\Helper.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.dll
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Helper\obj\Debug\Helper.pdb

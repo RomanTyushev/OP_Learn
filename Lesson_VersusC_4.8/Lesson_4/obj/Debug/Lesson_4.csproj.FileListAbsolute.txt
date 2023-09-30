@@ -17,3 +17,7 @@ C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.
 C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Helper.dll
 C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\bin\Debug\Helper.pdb
 C:\Users\Елена\Desktop\repo\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.CopyComplete
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\Lesson_VersusC_4.8\Lesson_4\obj\Debug\Lesson_4.pdb

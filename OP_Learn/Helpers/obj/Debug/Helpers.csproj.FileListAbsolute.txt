@@ -3,3 +3,9 @@ C:\Users\Елена\source\repos\Lesson\Helpers\bin\Debug\Helpers.pdb
 C:\Users\Елена\source\repos\Lesson\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
 C:\Users\Елена\source\repos\Lesson\Helpers\obj\Debug\Helpers.dll
 C:\Users\Елена\source\repos\Lesson\Helpers\obj\Debug\Helpers.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Helpers\bin\Debug\Helpers.dll
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Helpers\obj\Debug\Helpers.dll
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Helpers\obj\Debug\Helpers.pdb

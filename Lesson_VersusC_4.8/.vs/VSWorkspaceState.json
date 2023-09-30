@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Helper",
+    "\\Lesson_1",
+    "\\Lesson_2",
     "\\Lesson_3",
-    "\\Lesson_4",
-    "\\Lesson_5"
+    "\\Lesson_3\\Lesson_3",
+    "\\Lesson_4"
   ],
-  "SelectedNode": "\\Lesson_VersusC_4.8.sln",
+  "SelectedNode": "\\Lesson_2\\Lesson_2.csproj",
   "PreviewInSolutionExplorer": false
 }
