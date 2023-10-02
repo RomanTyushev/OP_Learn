@@ -82,12 +82,12 @@ namespace Helpers
             set { _a[index] = value; }
         }
 
-        public MyArray()
+        public void MyArray()
         { 
             
         }
 
-        public MyArray(int[] a)
+        public void MyArray(int[] a)
         {
             this._a = a;
         }

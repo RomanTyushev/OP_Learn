@@ -1,0 +1,10 @@
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\bin\Debug\Lesson_4.exe.config
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\bin\Debug\Lesson_4.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\bin\Debug\Lesson_4.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\obj\Debug\Lesson_4.csproj.AssemblyReference.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\obj\Debug\Lesson_4.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\obj\Debug\Lesson_4.exe
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\obj\Debug\Lesson_4.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\bin\Debug\Helpers.dll
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\bin\Debug\Helpers.pdb
+C:\Users\Роман\Documents\GitHub\OP_Learn\OP_Learn\Lesson_4\obj\Debug\Lesson_4.csproj.CopyComplete
