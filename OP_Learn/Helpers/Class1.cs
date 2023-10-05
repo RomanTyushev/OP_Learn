@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -109,6 +110,25 @@ namespace Helpers
         }
 
         /// <summary>
+        /// Возведение элементов массива в квадрат
+        /// </summary>
+        public void SquaringMassiveandPrint()
+        {
+            for (int i = 0; i < 10; i++) _a[i] = i * i;
+            for (int i = 0; i < 10; i++) Console.WriteLine(_a[i]);
+            Console.WriteLine();
+            Helpers.Helper.Pause();
+        }
+
+        /// <summary>
+        /// Возведение элементов массива в квадрат
+        /// </summary>
+        public void SquaringMassiveand()
+        {
+            for (int i = 0; i < 10; i++) _a[i] = i * i;
+        }
+
+        /// <summary>
         /// Метод печати массива полностью
         /// </summary>
         public void PrintAllArray()
@@ -121,9 +141,31 @@ namespace Helpers
         /// Метод пперевода элементов массива в положительные числа
         /// </summary>
         /// <param name="a">Ссылка на массив</param>
-        public void PositiveNumberArray()
+        public void PositiveReversArray()
         {
             for (int i = 0; i < _a.Length; i++) if (_a[i] < 0) _a[i] = -_a[i];
+        }
+
+        /// <summary>
+        /// Метод возврата максимального значения массива
+        /// </summary>
+        /// <returns>максимальное значение</returns>
+        public int MaxElementMassive()
+        {
+            int max = _a[0];
+            for (int i = 1; i < _a.Length; i++) if (max < _a[i]) max = _a[i];
+            return max;            
+        }
+
+        /// <summary>
+        /// Метод возврата минимального значения массива
+        /// </summary>
+        /// <returns>минимальное значение</returns>
+        public int MinElementMassive()
+        {
+            int min = _a[0];
+            for (int i = 1; i < _a.Length; i++) if (min < _a[i]) min = _a[i];
+            return min;
         }
 
         #endregion
