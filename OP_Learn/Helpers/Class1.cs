@@ -96,15 +96,27 @@ namespace Helpers
         /// <summary>
         /// Метод заполняет массив случайными числами
         /// </summary>
-        public void InputAll()
+        public static void InputAll()
         {
             Console.WriteLine("Введите количество элементов одномерного массива");
             int size = int.Parse(Console.ReadLine());
-            int[] a = new int[size];
-            Console.WriteLine("Введите нижнюю границу диапозона");
+            int[] _a = new int[size];
+            Console.WriteLine("Введите нижнюю границу диапазона");
             int min = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите верхнюю границу диапозона");
+            Console.WriteLine("Введите верхнюю границу диапазона");
             int max = int.Parse(Console.ReadLine());
+            Random rnd = new Random();
+            for (int i = 0; i < _a.Length; i++) _a[i] = rnd.Next(min, max);
+        }
+
+        /// <summary>
+        /// Метод заполняет массив случайными числами. Задаётся границы массива
+        /// </summary>
+        /// <param name="a">массив</param>
+        /// <param name="min">нижняя граница диапазона</param>
+        /// <param name="max">верхняя граница диапазона</param>
+        public static void InputAll(int[] _a, int min, int max)
+        {
             Random rnd = new Random();
             for (int i = 0; i < _a.Length; i++) _a[i] = rnd.Next(min, max);
         }
@@ -112,28 +124,18 @@ namespace Helpers
         /// <summary>
         /// Возведение элементов массива в квадрат
         /// </summary>
-        public void SquaringMassiveandPrint()
+        public static void SquaringMassive(int[] _a)
         {
-            for (int i = 0; i < 10; i++) _a[i] = i * i;
-            for (int i = 0; i < 10; i++) Console.WriteLine(_a[i]);
+            for (int i = 0; i < _a.Length; i++) _a[i] *= _a[i];
             Console.WriteLine();
-            Helpers.Helper.Pause();
-        }
-
-        /// <summary>
-        /// Возведение элементов массива в квадрат
-        /// </summary>
-        public void SquaringMassiveand()
-        {
-            for (int i = 0; i < 10; i++) _a[i] = i * i;
         }
 
         /// <summary>
         /// Метод печати массива полностью
         /// </summary>
-        public void PrintAllArray()
+        public static void PrintAllArray(int[] a)
         {
-            for (int i = 0; i < _a.Length; i++) Console.Write("{0} ", _a[i]);
+            for (int i = 0; i < a.Length; i++) Console.Write("{0} ", a[i]);
             Console.WriteLine();
         }
 
@@ -141,7 +143,7 @@ namespace Helpers
         /// Метод пперевода элементов массива в положительные числа
         /// </summary>
         /// <param name="a">Ссылка на массив</param>
-        public void PositiveReversArray()
+        public static void PositiveReversArray(int[] _a)
         {
             for (int i = 0; i < _a.Length; i++) if (_a[i] < 0) _a[i] = -_a[i];
         }
@@ -150,10 +152,11 @@ namespace Helpers
         /// Метод возврата максимального значения массива
         /// </summary>
         /// <returns>максимальное значение</returns>
-        public int MaxElementMassive()
+        public static int MaxElementMassive(int[] _a)
         {
             int max = _a[0];
             for (int i = 1; i < _a.Length; i++) if (max < _a[i]) max = _a[i];
+            Console.WriteLine(max);
             return max;            
         }
 
@@ -161,12 +164,55 @@ namespace Helpers
         /// Метод возврата минимального значения массива
         /// </summary>
         /// <returns>минимальное значение</returns>
-        public int MinElementMassive()
+        public static int MinElementMassive(int[] _a)
         {
             int min = _a[0];
             for (int i = 1; i < _a.Length; i++) if (min < _a[i]) min = _a[i];
+            Console.WriteLine(min);
             return min;
         }
+
+        /// <summary>
+        /// Метод создающий масив определенного размера от начального занчения с заданным шагом
+        /// </summary>
+        /// <param name="lounch">Размер массива</param>
+        /// <param name="start">Начальное значение массива</param>
+        /// <param name="step">шаг заполнения массива</param>
+        public static void InputMassive(int[]_a, int lounch, int start, int step)
+        {
+            _a[0] = start;
+            for (int i = 1; i < lounch; i++) _a[i] = _a[i-1] + step;
+        }
+
+        /// <summary>
+        /// Метод возврата суммы массива
+        /// </summary>
+        /// <param name="_a">массив</param>
+        /// <returns></returns>
+        public static int SumElementMassive(int[] _a)
+        {
+            int sum = 0;
+            for (int i = 0; i < _a.Length; i++) sum += _a[i] ;
+            Console.WriteLine(sum);
+            return sum;
+        }
+
+        public static void InverseMassive(int[] _a) 
+        {
+            int[] res = _a;
+            for (int i = 0; i < res.Length; i++) res[i] = -res[i];
+            for (int i = 0; i < res.Length; i++) Console.Write("{0} ", res[i]);
+            Console.WriteLine();
+        }
+
+        //            метод Inverse, возвращающий новый массив с измененными знаками у всех элементов массива(старый массив, остается без изменений)
+        //            метод Multi, умножающий каждый элемент массива наопределённое число
+        //            свойство MaxCount, возвращающее количество максимальных элементов.
+        //            **Создать библиотеку содержащую класс для работы с массивом.
+        //            Продемонстрировать работу библиотеки.
+        //            2.Решить задачу с логинами из урока 2, только логины и пароли считать из файла в массив.
+        //            Создайте структуру Account, содержащую Login и Password.
+        //            Переписывайте в начало программы условие и свою фамилию. Все программы сделать в одном решении.
 
         #endregion
     }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
+using System.Runtime.Remoting.Messaging;
 
 namespace Lesson_4
 {
@@ -56,7 +57,7 @@ namespace Lesson_4
             // Описание объекта типа массив
             int[] array0;
             // Выделение места под массив
-            array0 = new int[5];
+            array0 = new int[10];
             // Объявление одномерного массива из 5 элементов
             int[] array1 = new int[5];
             // Объявление массива и заполнение его элементами
@@ -64,12 +65,26 @@ namespace Lesson_4
             // Альтернативный вариант создания заполненного массива
             int[] array3 = { 1, 2, 3, 4, 5, 6 };
 
+
             //возведение каждого элемента массива в квадрат
 
+            Helpers.Helper.InputAll(array0, 1, 100);
+            Helpers.Helper.PrintAllArray(array0);
+            Helpers.Helper.Pause();
+            Helpers.Helper.SquaringMassive(array0);
+            Helpers.Helper.PrintAllArray(array0);
+            Helpers.Helper.Pause();
+            Helpers.Helper.MaxElementMassive(array0);
+            Helpers.Helper.Pause();
+            Helpers.Helper.InputMassive(array0, array0.Length, 150, 300);
+            Helpers.Helper.PrintAllArray(array0);
+            Helpers.Helper.Pause();
+            Helpers.Helper.SumElementMassive(array0);
+            Helpers.Helper.Pause();
+            Helpers.Helper.InverseMassive(array0);
+            Helpers.Helper.PrintAllArray(array0); 
+            Helpers.Helper.Pause();
 
-//            1.а) Дописать класс для работы с одномерным массивом.Реализовать конструктор, создающий массив определенного размера и заполняющий массив числами от начального значения с заданным шагом.Создать свойство Sum, которое возвращает сумму элементов массива, метод Inverse, возвращающий новый массив с измененными знаками у всех элементов массива(старый массив, остается без изменений), метод Multi, умножающий каждый элемент массива наопределённое число, свойство MaxCount, возвращающее количество максимальных элементов. б)**Создать библиотеку содержащую класс для работы с массивом.Продемонстрировать работу библиотеки. 
-                //2.Решить задачу с логинами из урока 2, только логины и пароли считать из файла в массив. Создайте структуру Account, содержащую
-                //Login и Password. Достаточно решить 2 задачи.Старайтесь разбивать программы на подпрограммы.Переписывайте в //начало программы условие и свою фамилию. Все программы сделать в одном решении.
 
 
             #region Sistem.IO
@@ -143,7 +158,7 @@ namespace Lesson_4
             //Console.WriteLine("Среднее арифметическое:{0:f2}", (double)sum /
             //count);
             //// Обратите внимание! Если не поставить явное преобразование типов перед sum, sum/ count получит целое число.Попробуйте убрать(double) перед sum.
-}
+        }
 
 
         #endregion
@@ -162,5 +177,4 @@ namespace Lesson_4
 
         #endregion
     }
-}
 }
