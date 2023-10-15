@@ -59,11 +59,11 @@ namespace Lesson_4
             // Выделение места под массив
             array0 = new int[10];
             // Объявление одномерного массива из 5 элементов
-            int[] array1 = new int[5];
-            // Объявление массива и заполнение его элементами
-            int[] array2 = new int[] { 1, 3, 5, 7, 9 };
-            // Альтернативный вариант создания заполненного массива
-            int[] array3 = { 1, 2, 3, 4, 5, 6 };
+            //int[] array1 = new int[5];
+            //// Объявление массива и заполнение его элементами
+            //int[] array2 = new int[] { 1, 3, 5, 7, 9 };
+            //// Альтернативный вариант создания заполненного массива
+            //int[] array3 = { 1, 2, 3, 4, 5, 6 };
 
 
             //возведение каждого элемента массива в квадрат
@@ -84,8 +84,12 @@ namespace Lesson_4
             Helpers.Helper.InverseMassive(array0);
             Helpers.Helper.PrintAllArray(array0); 
             Helpers.Helper.Pause();
-
-
+            Helpers.Helper.Multi(array0, 5);
+            Helpers.Helper.PrintAllArray(array0);
+            Helpers.Helper.Pause();
+            int[] array10 = { 55, 55 ,45, 45, 33, 33 ,25};
+            //Helpers.Helper.MaxCount(array10);
+            Helpers.Helper.Pause();
 
             #region Sistem.IO
 

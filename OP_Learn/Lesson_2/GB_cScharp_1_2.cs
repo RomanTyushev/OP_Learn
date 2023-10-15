@@ -107,7 +107,10 @@ namespace Lesson_2
             Console.WriteLine($"В ведённом вами числе - {i} чисел");
             Console.ReadKey();
         }
-                
+
+        /// <summary>
+        /// Метод подсчитывает сумму всех нечетных положительных чисел
+        /// </summary>
         static void Task_3()
         {
             Console.WriteLine("С клавиатуры вводятся числа, пока не будет введен 0. /n Подсчитать сумму всех нечетных положительных чисел.");
@@ -128,6 +131,9 @@ namespace Lesson_2
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Метод проверки логина и пароля
+        /// </summary>
         static void Task_4()
         {
             //Реализовать метод проверки логина и пароля.
@@ -176,7 +182,10 @@ namespace Lesson_2
 
             Helper.Pause();
         }
-                        
+        
+        /// <summary>
+        /// Метод даёт рекомендации после расчёта индекса массы тела
+        /// </summary>
         static void Task_5()
         {
             //а) Написать программу, которая запрашивает массу и рост человека, вычисляет его индекс массы и сообщает,
@@ -227,6 +236,9 @@ namespace Lesson_2
 
         }
 
+        /// <summary>
+        /// Метод подсчета количества «хороших» чисел в задаваемом диапазоне
+        /// </summary>
         static void Task_6()
         {
             // Написать программу подсчета количества «хороших» чисел в диапазоне от 1 до 1 000 000 000.
@@ -262,6 +274,11 @@ namespace Lesson_2
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Метод подсчёта суммы цифр числа
+        /// </summary>
+        /// <param name="number">число</param>
+        /// <returns></returns>
         static int GetSum(int number)
         {
             var sum = 0;
@@ -273,14 +290,38 @@ namespace Lesson_2
             return sum;
         }
 
+        /// <summary>
+        /// Метод выводит на экран числа от a до b(a < b)
+        /// </summary>
         static void Task_7()
         {
             // a) Разработать рекурсивный метод, который выводит на экран числа от a до b(a < b).
             // б) *Разработать рекурсивный метод, который считает сумму чисел от a до b.
-            Console.WriteLine(RecursiveSum(13));
+            Console.WriteLine("Введите первое чмсло: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите второе чмсло: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c;
+            if (b < a)
+            {
+                c = a;
+                a = b;
+                b = c;
+            }
+            for (int i = a; i < b; i++)
+            {
+                a += i;
+                Console.Write(a);
+            }
+            //Console.WriteLine(RecursiveSum(13));
             
         }
 
+        /// <summary>
+        /// Рекурсивный метод, возвращающий сумму чисел цисла
+        /// </summary>
+        /// <param name="a">Число</param>
+        /// <returns>Сумма цифр числа</returns>
         static long RecursiveSum(long a)
         {
             if (a == 0)

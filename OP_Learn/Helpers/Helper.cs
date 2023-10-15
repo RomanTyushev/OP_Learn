@@ -197,19 +197,52 @@ namespace Helpers
             return sum;
         }
 
-        public static void InverseMassive(int[] _a) 
+        //Надо доделать
+        /// <summary>
+        /// Метод возвращающий новый массив с измененными знаками у всех элементов массива(старый массив, остается без изменений)
+        /// </summary>
+        /// <param name="_a">массив</param>
+        /// <returns></returns>
+        public static int InverseMassive(int[] _a) //надо доделать, изменяет первый массив
         {
             int[] res = _a;
             for (int i = 0; i < res.Length; i++) res[i] = -res[i];
             for (int i = 0; i < res.Length; i++) Console.Write("{0} ", res[i]);
             Console.WriteLine();
+            return res[0];
         }
 
-        //            метод Inverse, возвращающий новый массив с измененными знаками у всех элементов массива(старый массив, остается без изменений)
-        //            метод Multi, умножающий каждый элемент массива наопределённое число
-        //            свойство MaxCount, возвращающее количество максимальных элементов.
-        //            **Создать библиотеку содержащую класс для работы с массивом.
-        //            Продемонстрировать работу библиотеки.
+        /// <summary>
+        /// Метод умножающий каждый элемент массива на определённое число
+        /// </summary>
+        /// <param name="_a">массив</param>
+        /// <param name="m">множитель</param>
+        /// <returns></returns>
+        public static int Multi(int[] _a, int m)
+        {
+            for (int i = 0; i < _a.Length; i++) _a[i] *= m;
+            return _a[0];
+        }
+
+        /// <summary>
+        /// Cвойство, возвращающее количество максимальных элементов
+        /// </summary>
+        //public static int MaxCount(int[] _a)
+        //{
+        //    int sum = 0;
+        //    Array.Sort(_a);
+        //    for (int i = _a.Length; i > 0; i--)
+        //    {
+        //        if (_a[i] == _a.Last())
+        //        {
+        //            sum += 1;
+        //        }
+        //    }
+        //    Console.WriteLine(sum);
+        //    return sum;
+        //}
+
+
         //            2.Решить задачу с логинами из урока 2, только логины и пароли считать из файла в массив.
         //            Создайте структуру Account, содержащую Login и Password.
         //            Переписывайте в начало программы условие и свою фамилию. Все программы сделать в одном решении.
