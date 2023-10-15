@@ -82,7 +82,7 @@ namespace Lesson_2
             // int min = a < b && a < c ? a : b < a && b < c ? b : c < b && c < a ? c : 0;
             // Console.WriteLine(min);
 
-            Helper.Pause();
+            MyArray.Pause();
         }
 
         /// <summary>
@@ -180,7 +180,7 @@ namespace Lesson_2
                 Console.WriteLine("######################");
             }
 
-            Helper.Pause();
+            MyArray.Pause();
         }
         
         /// <summary>

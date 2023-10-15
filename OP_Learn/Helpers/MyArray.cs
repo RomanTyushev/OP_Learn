@@ -8,68 +8,8 @@ using System.Threading.Tasks;
 
 namespace Helpers
 {
-    public class Helper
+    public class MyArray
     {
-        #region Pause
-
-        /// <summary>
-        /// Задержка темного экрана
-        /// </summary>
-
-        public static void Pause()
-        {
-            Console.ReadKey();
-        }
-
-        /// <summary>
-        /// Задержка экрана
-        /// </summary>
-        /// <param name="interval">миллисекунд (1000 мс = 1 с)</param>
-        public static void Sleep(int interval)
-        {
-            Thread.Sleep(interval);
-        }
-
-        #endregion
-
-        #region Print
-
-        /// <summary>
-        /// Напечатать текст
-        /// </summary>
-        /// <param name="text">Выводимый текст</param>
-        static public void Print(string text)
-        {
-            Console.WriteLine(text);
-            Console.ReadKey();
-        }
-
-        /// <summary>
-        /// Метод пчатающий заголовок с разделителями
-        /// </summary>
-        /// <param name="header">Текст заголовка</param>
-        public static void Header(string header)
-        {
-            Console.WriteLine("#####################################");
-            Console.WriteLine(header);
-            Console.WriteLine("#####################################");
-            Console.WriteLine(" ");
-        }
-
-        /// <summary>
-        /// Вывод текста по центру экрана
-        /// </summary>
-        /// <param name="text">Передаваемый текст</param>
-        public static void Center(string text)
-        {
-            Console.SetCursorPosition((Console.WindowWidth - text.Length) / 2, Console.WindowHeight / 2 - 1);
-            Console.Write(text);
-        }
-
-        #endregion
-
-        #region MyArray
-
         private int[] _a;
 
         /// <summary>
@@ -83,12 +23,12 @@ namespace Helpers
             set { _a[index] = value; }
         }
 
-        public void MyArray()
+        public MyArray(int n)
         { 
-            
+            _a = new int[n];
         }
 
-        public void MyArray(int[] a)
+        public MyArray(int[] a)
         {
             this._a = a;
         }
@@ -224,6 +164,7 @@ namespace Helpers
             return _a[0];
         }
 
+        //Надо доделать
         /// <summary>
         /// Cвойство, возвращающее количество максимальных элементов
         /// </summary>
@@ -241,13 +182,6 @@ namespace Helpers
         //    Console.WriteLine(sum);
         //    return sum;
         //}
-
-
-        //            2.Решить задачу с логинами из урока 2, только логины и пароли считать из файла в массив.
-        //            Создайте структуру Account, содержащую Login и Password.
-        //            Переписывайте в начало программы условие и свою фамилию. Все программы сделать в одном решении.
-
-        #endregion
     }
 
 }

@@ -68,30 +68,37 @@ namespace Lesson_4
 
             //возведение каждого элемента массива в квадрат
 
-            Helpers.Helper.InputAll(array0, 1, 100);
-            Helpers.Helper.PrintAllArray(array0);
-            Helpers.Helper.Pause();
-            Helpers.Helper.SquaringMassive(array0);
-            Helpers.Helper.PrintAllArray(array0);
-            Helpers.Helper.Pause();
-            Helpers.Helper.MaxElementMassive(array0);
-            Helpers.Helper.Pause();
-            Helpers.Helper.InputMassive(array0, array0.Length, 150, 300);
-            Helpers.Helper.PrintAllArray(array0);
-            Helpers.Helper.Pause();
-            Helpers.Helper.SumElementMassive(array0);
-            Helpers.Helper.Pause();
-            Helpers.Helper.InverseMassive(array0);
-            Helpers.Helper.PrintAllArray(array0); 
-            Helpers.Helper.Pause();
-            Helpers.Helper.Multi(array0, 5);
-            Helpers.Helper.PrintAllArray(array0);
-            Helpers.Helper.Pause();
+            Helpers.MyArray.InputAll(array0, 1, 100);
+            Helpers.MyArray.PrintAllArray(array0);
+            Helpers.Pause.PauseProgramm();
+            Helpers.MyArray.SquaringMassive(array0);
+            Helpers.MyArray.PrintAllArray(array0);
+            Helpers.Pause.PauseProgramm();
+            Helpers.MyArray.MaxElementMassive(array0);
+            Helpers.Pause.PauseProgramm();
+            Helpers.MyArray.InputMassive(array0, array0.Length, 150, 300);
+            Helpers.MyArray.PrintAllArray(array0);
+            Helpers.Pause.PauseProgramm();
+            Helpers.MyArray.SumElementMassive(array0);
+            Helpers.Pause.PauseProgramm();
+            Helpers.MyArray.InverseMassive(array0);
+            Helpers.MyArray.PrintAllArray(array0); 
+            Helpers.Pause.PauseProgramm();
+            Helpers.MyArray.Multi(array0, 5);
+            Helpers.MyArray.PrintAllArray(array0);
+            Helpers.Pause.PauseProgramm();
             int[] array10 = { 55, 55 ,45, 45, 33, 33 ,25};
             //Helpers.Helper.MaxCount(array10);
-            Helpers.Helper.Pause();
+            Helpers.Pause.PauseProgramm();
 
             #region Sistem.IO
+
+            //ДЗ остаток
+            //***********************************
+            //            2.Решить задачу с логинами из урока 2, только логины и пароли считать из файла в массив.
+            //            Создайте структуру Account, содержащую Login и Password.
+            //            Переписывайте в начало программы условие и свою фамилию. Все программы сделать в одном решении.
+            //***********************************
 
             //записываем в строку данные из файла
             //string text = File.ReadAllText("D:\\Роман\\test.txt");
